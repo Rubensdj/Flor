@@ -202,6 +202,11 @@ document.addEventListener('DOMContentLoaded', () => {
         setTimeout(() => {
             endText.classList.add('visible');
         }, 4600);
+
+        setTimeout(() => {
+            const signature = document.querySelector('.signature');
+            if (signature) signature.classList.add('visible');
+        }, 5800);
     }
 
     function delay(ms) {
