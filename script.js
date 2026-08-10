@@ -40,11 +40,11 @@ document.addEventListener('DOMContentLoaded', () => {
     function startCardLoader() {
         const duration = 2400;
         const steps = [
-            { threshold: 20, text: 'Loading Love.css...' },
-            { threshold: 50, text: 'Growing digital petals...' },
-            { threshold: 80, text: 'Adding velvet textures...' },
-            { threshold: 95, text: 'Optimizing 3D rendering...' },
-            { threshold: 100, text: 'Ready to bloom!' }
+            { threshold: 20, text: 'Carregando amor.css...' },
+            { threshold: 50, text: 'Cultivando pétalas digitais...' },
+            { threshold: 80, text: 'Adicionando texturas de veludo...' },
+            { threshold: 95, text: 'Otimizando renderização 3D...' },
+            { threshold: 100, text: 'Prontos para florescer!' }
         ];
 
         let startTimestamp = null;
